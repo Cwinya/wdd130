@@ -5,6 +5,7 @@ nav {
 
 nav a {
     color: white;
+    background-color: inherit;
     display: block;
     padding: 20px;
 }
