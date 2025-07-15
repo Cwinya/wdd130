@@ -37,11 +37,7 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-<<<<<<< HEAD:styles.css
     border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-=======
-    border: 1px solid rgb(0, 0, 0 / 0.2); /* 1 */
->>>>>>> c1e045097399f5049d95442dd53c9d57b0c26d99:style.css
     padding: 1rem;
     background-color: #eee;
     color: #333;
