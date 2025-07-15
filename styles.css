@@ -5,7 +5,6 @@ nav {
 
 nav a {
     color: white;
-    background-color: inherit;
     display: block;
     padding: 20px;
 }
@@ -23,7 +22,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 main {
@@ -38,7 +37,7 @@ main img {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -48,10 +47,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {
