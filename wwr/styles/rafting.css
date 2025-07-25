@@ -18,9 +18,24 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header, main, section, footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+	width: 100px;
+	height: auto;
 }
 
 h1, h2 {
@@ -29,11 +44,31 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+    margin: 1.5rem 0 1.5rem 0;
+    padding: 0;
 }
 
-.socialmedia a {
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    flex: 1 1 auto;
+}
+
+ nav a:hover {
+	color: tomato;
+	text-decoration: underline;
+}
+
+.socialmedia {
     text-decoration: none;
 }
 
@@ -71,4 +106,63 @@ h1 {
     float: right;
     margin: 10px;
     width: 125px;
+}
+
+.history{
+    display: flex;
+    margin: auto;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.history .content, .adventure .content {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsla(196, 65%, 3%, 0.925);
+    border-radius: 4px;
+    box-shadow: hsla(340, 12%, 5%, 0.961) 0px 5px 15px, inset hsla(240, 85%, 45%, 0) 0px -10px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.adventure > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.adventure > div {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsla(196, 65%, 3%, 0.925);
+    border-radius: 4px;
+    box-shadow: hsla(340, 12%, 5%, 0.961) 0px 5px 15px, inset hsla(240, 85%, 45%, 0) 0px -10px 20px;
+}
+.adventure > figure {
+    flex: 1 1 300px;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);     
+}
+/* Position the footer social icons to left. */
+footer > p {
+    flex: 1;
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+footer img {
+    margin: 1rem;
+    float: right;
 }
