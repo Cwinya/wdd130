@@ -90,16 +90,16 @@
 
                     <label>Purpose of the Message:</label>
                     <div class="radio-group">
-                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    <label for="radio"><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label>
+                    <label for="radio"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+                    <label for="radio"><input type="radio" id="suggestion" "purpose" value="suggestion"> Website Suggestion</label>
                     </div>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="user_message" rows="5" required></textarea>
 
                     <div class="checkbox-group">
-                    <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+                    <label for="checkbox"><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
                     </div>
 
                     <button type="submit">Send Message</button>
