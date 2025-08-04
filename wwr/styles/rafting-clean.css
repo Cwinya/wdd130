@@ -124,11 +124,6 @@ nav ul li a:hover {
     background-color: hsla(196, 65%, 3%, 0.925);
 }
 
-.adventure > figure {
-    flex: 1 1 300px;
-    margin: 0;
-}
-
 footer {
     display: flex;
     justify-content: center;
