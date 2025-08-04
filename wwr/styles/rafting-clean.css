@@ -57,13 +57,10 @@ nav ul {
     display: flex;
     gap: 20px;
     font-weight: 400;
-}
-
-nav ul li a { 
     text-decoration: none;
 }
 
-nav ul li a:hover {
+a:hover {
     color: tomato;
     text-decoration: underline;
 }
