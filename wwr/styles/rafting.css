@@ -149,6 +149,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     padding: 1rem;
     background-color: var(--primary-color);     
 }
@@ -158,13 +159,6 @@ footer > p {
     text-align: center;
     color: var(--accent1-color);
 }
-
-footer img {
-    margin: 1rem 0;
-    float: right;
-    margin: 1rem;
-}
-
 
 /* Forms for the comment */
 form {
