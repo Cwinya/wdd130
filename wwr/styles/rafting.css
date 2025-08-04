@@ -124,13 +124,6 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-.content, .adventure .content {
-    margin: 1rem 1rem 1rem 0.25rem;
-    padding: 1rem;
-    /* background-color: hsla(196, 65%, 3%, 0.925); */
-    /* border-radius: 4px; */
-    /* box-shadow: hsla(340, 12%, 5%, 0.961) 0px 5px 15px, inset hsla(240, 85%, 45%, 0) 0px -10px 20px; */
-}
 
 h2 {
     text-align: center;
